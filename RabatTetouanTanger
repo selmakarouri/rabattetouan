@@ -374,7 +374,7 @@ const RabatPremiumButton = createButton("Rabat Premium", function() {
     console.log("تم تنفيذ الشيفرة لزر Rabat Premium بنجاح!");
   });
     
-  const NadorNormalButton = createButton("Nador Normal", function() {
+  const TetouanNormalButton = createButton("Tetouan Normal", function() {
 (function () {
     "use strict";
 
@@ -406,7 +406,7 @@ const RabatPremiumButton = createButton("Rabat Premium", function() {
                 if (isVisibleLocation) {
                     console.log("Location " + i + " is visible");
                     var Location = $("#Location" + i).data("kendoDropDownList");
-                    Location.select(4); //4 corresponds to 'Nador'
+                    Location.select(2); //2 corresponds to 'Tetouan'
                     Location.trigger("change");
 
                     await new Promise(resolve => setTimeout(resolve, 100)); // Ajouter un délai de 100 ms
@@ -543,9 +543,9 @@ const RabatPremiumButton = createButton("Rabat Premium", function() {
     //-------------------//
 
 })();
-    console.log("تم تنفيذ الشيفرة لزر Nador Normal بنجاح!");
+    console.log("تم تنفيذ الشيفرة لزر Tetouan Normal بنجاح!");
   });
-  const NadorPremiumButton = createButton("Nador Premium", function() {
+  const TetouanPremiumButton = createButton("Tetouan Premium", function() {
 (function () {
     "use strict";
 
@@ -577,7 +577,7 @@ const RabatPremiumButton = createButton("Rabat Premium", function() {
                 if (isVisibleLocation) {
                     console.log("Location " + i + " is visible");
                     var Location = $("#Location" + i).data("kendoDropDownList");
-                    Location.select(4); //4 corresponds to 'Nador'
+                    Location.select(2); //2 corresponds to 'Tetouan'
                     Location.trigger("change");
 
                     await new Promise(resolve => setTimeout(resolve, 100)); // Ajouter un délai de 100 ms
@@ -714,7 +714,7 @@ const RabatPremiumButton = createButton("Rabat Premium", function() {
     //-------------------//
 
 })();
-    console.log("تم تنفيذ الشيفرة لزر Nador Premium بنجاح!");
+    console.log("تم تنفيذ الشيفرة لزر Tetouan Premium بنجاح!");
   });
 
   const TangerNormalButton = createButton("Tanger Normal", function() {
@@ -1078,13 +1078,13 @@ if (targetSibling) {
  const row1 = document.createElement('div');
   row1.style.display = 'flex';
   row1.appendChild(RabatNormalButton);
-  row1.appendChild(NadorNormalButton);
+  row1.appendChild(TetouanNormalButton);
   row1.appendChild(TangerNormalButton);
     
   const row2 = document.createElement('div');
   row2.style.display = 'flex';
   row2.appendChild(RabatPremiumButton);
-  row2.appendChild(NadorPremiumButton);
+  row2.appendChild(TetouanPremiumButton);
   row2.appendChild(TangerPremiumButton); 
 
   // إضافة الصفوف إلى العنصر الذي يحتوي على الأزرار
