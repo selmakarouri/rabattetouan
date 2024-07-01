@@ -28,7 +28,7 @@ if (window.location.href.startsWith(vtvUrlPrefix)) {
   // دالة لإضافة الأزرار إلى الصفحة
 
   // إنشاء الأزرار
-  const AgadirNormalButton = createButton("Agadir Normal", function() {
+  const RabatNormalButton = createButton("Rabat Normal", function() {
 (function () {
     "use strict";
 
@@ -60,7 +60,7 @@ if (window.location.href.startsWith(vtvUrlPrefix)) {
                 if (isVisibleLocation) {
                     console.log("Location " + i + " is visible");
                     var Location = $("#Location" + i).data("kendoDropDownList");
-                    Location.select(5); //5 corresponds to 'Agadir'
+                    Location.select(1); //1 corresponds to 'Rabat'
                     Location.trigger("change");
 
                     await new Promise(resolve => setTimeout(resolve, 100)); // Ajouter un délai de 100 ms
@@ -200,9 +200,9 @@ if (window.location.href.startsWith(vtvUrlPrefix)) {
 
 
 })();
-    console.log("تم تنفيذ الشيفرة لزر Agadir Normal بنجاح!");
+    console.log("تم تنفيذ الشيفرة لزر Rabat Normal بنجاح!");
   });
-const AgadirPremiumButton = createButton("Agadir Premium", function() {
+const RabatPremiumButton = createButton("Rabat Premium", function() {
 (function () {
     "use strict";
   (async function() {
@@ -233,7 +233,7 @@ const AgadirPremiumButton = createButton("Agadir Premium", function() {
                 if (isVisibleLocation) {
                     console.log("Location " + i + " is visible");
                     var Location = $("#Location" + i).data("kendoDropDownList");
-                    Location.select(5); //5 corresponds to 'Agadir'
+                    Location.select(1); //1 corresponds to 'Rabat'
                     Location.trigger("change");
 
                     await new Promise(resolve => setTimeout(resolve, 100)); // Ajouter un délai de 100 ms
@@ -371,10 +371,10 @@ const AgadirPremiumButton = createButton("Agadir Premium", function() {
     //-------------------//
 
 })();
-    console.log("تم تنفيذ الشيفرة لزر Agadir Premium بنجاح!");
+    console.log("تم تنفيذ الشيفرة لزر Rabat Premium بنجاح!");
   });
     
-  const NadorNormalButton = createButton("Nador Normal", function() {
+  const TetouanNormalButton = createButton("Tetouan Normal", function() {
 (function () {
     "use strict";
 
@@ -406,7 +406,7 @@ const AgadirPremiumButton = createButton("Agadir Premium", function() {
                 if (isVisibleLocation) {
                     console.log("Location " + i + " is visible");
                     var Location = $("#Location" + i).data("kendoDropDownList");
-                    Location.select(4); //4 corresponds to 'Nador'
+                    Location.select(2); //2 corresponds to 'Tetouan'
                     Location.trigger("change");
 
                     await new Promise(resolve => setTimeout(resolve, 100)); // Ajouter un délai de 100 ms
@@ -543,9 +543,9 @@ const AgadirPremiumButton = createButton("Agadir Premium", function() {
     //-------------------//
 
 })();
-    console.log("تم تنفيذ الشيفرة لزر Nador Normal بنجاح!");
+    console.log("تم تنفيذ الشيفرة لزر Tetouan Normal بنجاح!");
   });
-  const NadorPremiumButton = createButton("Nador Premium", function() {
+  const TetouanPremiumButton = createButton("Tetouan Premium", function() {
 (function () {
     "use strict";
 
@@ -577,7 +577,7 @@ const AgadirPremiumButton = createButton("Agadir Premium", function() {
                 if (isVisibleLocation) {
                     console.log("Location " + i + " is visible");
                     var Location = $("#Location" + i).data("kendoDropDownList");
-                    Location.select(4); //4 corresponds to 'Nador'
+                    Location.select(2); //2 corresponds to 'Tetouan'
                     Location.trigger("change");
 
                     await new Promise(resolve => setTimeout(resolve, 100)); // Ajouter un délai de 100 ms
@@ -887,7 +887,7 @@ const AgadirPremiumButton = createButton("Agadir Premium", function() {
     //-------------------//
 
 })();
-    console.log("تم تنفيذ الشيفرة لزر Tanger Normal بنجاح!");
+    console.log("تم تنفيذ الشيفرة لزر Tetouan Normal بنجاح!");
   });
 
   const TangerPremiumButton = createButton("Tanger Premium", function() {
@@ -1077,14 +1077,14 @@ if (targetSibling) {
     // إضافة الأزرار إلى العنصر الذي يحتوي على الأزرار
  const row1 = document.createElement('div');
   row1.style.display = 'flex';
-  row1.appendChild(AgadirNormalButton);
-  row1.appendChild(NadorNormalButton);
+  row1.appendChild(RabatNormalButton);
+  row1.appendChild(TetouanNormalButton);
   row1.appendChild(TangerNormalButton);
     
   const row2 = document.createElement('div');
   row2.style.display = 'flex';
-  row2.appendChild(AgadirPremiumButton);
-  row2.appendChild(NadorPremiumButton);
+  row2.appendChild(RabatPremiumButton);
+  row2.appendChild(TetouanPremiumButton);
   row2.appendChild(TangerPremiumButton); 
 
   // إضافة الصفوف إلى العنصر الذي يحتوي على الأزرار
