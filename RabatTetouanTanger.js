@@ -749,7 +749,7 @@ const RabatPremiumButton = createButton("Rabat Premium", function() {
                 if (isVisibleLocation) {
                     console.log("Location " + i + " is visible");
                     var Location = $("#Location" + i).data("kendoDropDownList");
-                    Location.select(3); //3 corresponds to 'Tanger'
+                    Location.select(5); //5 corresponds to 'Tanger'
                     Location.trigger("change");
 
                     await new Promise(resolve => setTimeout(resolve, 100)); // Ajouter un délai de 100 ms
@@ -922,7 +922,7 @@ const RabatPremiumButton = createButton("Rabat Premium", function() {
                 if (isVisibleLocation) {
                     console.log("Location " + i + " is visible");
                     var Location = $("#Location" + i).data("kendoDropDownList");
-                    Location.select(3); //3 corresponds to 'Tanger'
+                    Location.select(5); //5 corresponds to 'Tanger'
                     Location.trigger("change");
 
                     await new Promise(resolve => setTimeout(resolve, 100)); // Ajouter un délai de 100 ms
