@@ -208,7 +208,7 @@ const RabatPremiumButton = createButton("Rabat Premium", function() {
   (async function() {
     'use strict';
 
-    var vtvUrlPrefix = "https://morocco.blsportugal.com/MAR/bls/vtv";
+    var vtvUrlPrefix = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType;
     var thirdUrlPrefix = "https://morocco.blsportugal.com/MAR/bls/vt";
 
     if (window.location.href.startsWith(vtvUrlPrefix)) {
