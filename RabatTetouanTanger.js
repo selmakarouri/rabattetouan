@@ -35,8 +35,8 @@ if (window.location.href.startsWith(vtvUrlPrefix)) {
   (async function() {
     'use strict';
 
-    var vtvUrlPrefix = "https://morocco.blsportugal.com/MAR/bls/vtv";
-    var thirdUrlPrefix = "https://morocco.blsportugal.com/MAR/bls/vt";
+    var vtvUrlPrefix = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType";
+    var thirdUrlPrefix = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType";
 
     if (window.location.href.startsWith(vtvUrlPrefix)) {
         const btnVerify = document.querySelector("#btnVerify");
@@ -208,8 +208,8 @@ const RabatPremiumButton = createButton("Rabat Premium", function() {
   (async function() {
     'use strict';
 
-    var vtvUrlPrefix = "https://morocco.blsportugal.com/MAR/bls/vtv";
-    var thirdUrlPrefix = "https://morocco.blsportugal.com/MAR/bls/vt";
+    var vtvUrlPrefix = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType";
+    var thirdUrlPrefix = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType";
 
     if (window.location.href.startsWith(vtvUrlPrefix)) {
         const btnVerify = document.querySelector("#btnVerify");
@@ -381,8 +381,8 @@ const RabatPremiumButton = createButton("Rabat Premium", function() {
      (async function() {
     'use strict';
 
-    var vtvUrlPrefix = "https://morocco.blsportugal.com/MAR/bls/vtv";
-    var thirdUrlPrefix = "https://morocco.blsportugal.com/MAR/bls/vt";
+    var vtvUrlPrefix = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType";
+    var thirdUrlPrefix = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType";
 
     if (window.location.href.startsWith(vtvUrlPrefix)) {
         const btnVerify = document.querySelector("#btnVerify");
@@ -552,8 +552,8 @@ const RabatPremiumButton = createButton("Rabat Premium", function() {
        (async function() {
     'use strict';
 
-    var vtvUrlPrefix = "https://morocco.blsportugal.com/MAR/bls/vtv";
-    var thirdUrlPrefix = "https://morocco.blsportugal.com/MAR/bls/vt";
+    var vtvUrlPrefix = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType";
+    var thirdUrlPrefix = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType";
 
     if (window.location.href.startsWith(vtvUrlPrefix)) {
         const btnVerify = document.querySelector("#btnVerify");
@@ -724,8 +724,8 @@ const RabatPremiumButton = createButton("Rabat Premium", function() {
      (async function() {
     'use strict';
 
-    var vtvUrlPrefix = "https://morocco.blsportugal.com/MAR/bls/vtv";
-    var thirdUrlPrefix = "https://morocco.blsportugal.com/MAR/bls/vt";
+    var vtvUrlPrefix = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType";
+    var thirdUrlPrefix = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType";
 
     if (window.location.href.startsWith(vtvUrlPrefix)) {
         const btnVerify = document.querySelector("#btnVerify");
@@ -897,8 +897,8 @@ const RabatPremiumButton = createButton("Rabat Premium", function() {
    (async function() {
     'use strict';
 
-    var vtvUrlPrefix = "https://morocco.blsportugal.com/MAR/bls/vtv";
-    var thirdUrlPrefix = "https://morocco.blsportugal.com/MAR/bls/vt";
+    var vtvUrlPrefix = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType";
+    var thirdUrlPrefix = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType";
 
     if (window.location.href.startsWith(vtvUrlPrefix)) {
         const btnVerify = document.querySelector("#btnVerify");
@@ -1149,7 +1149,7 @@ function createButton(label, clickHandler) {
   // تحقق من عنوان URL الحالي وتنفيذ الشيفرة فقط إذا كانت الصفحة المطلوبة
   if (
     window.location.href.startsWith("https://www.blsspainmorocco.net/MAR/account/login") ||
-    window.location.href.startsWith("https://www.blsspainmorocco.net/MAR/bls/vtv")
+    window.location.href.startsWith("https://www.blsspainmorocco.net/MAR/Appointment/VisaType")
   ) {
     // تأخير تنفيذ الشيفرة لمدة 3 ثواني
     setTimeout(function () {
@@ -1231,7 +1231,7 @@ function playAudioOnPageLoad() {
     var audioPage = "https://www.blsspainmorocco.net/MAR/bls/vtv";
 
     // الرابط المراد فحصه للتأكد من فتح الملف الصوتي
-    var targetPage = "https://www.blsspainmorocco.net/MAR/blsappointment/manageappointmen";
+    var targetPage = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType";
 
     // الرابط المراد استخدامه لتشغيل الملف الصوتي
     var audioFile = "https://audio.jukehost.co.uk/jfXukeu5oU1rVM5jUsZmpPu5ww6ENgE8";
