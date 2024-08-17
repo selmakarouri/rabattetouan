@@ -4,8 +4,8 @@
 
 
 
-var vtvUrlPrefix = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType";
-var thirdUrlPrefix = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType";
+var vtvUrlPrefix = "https://www.blsspainmorocco.net/MAR/bls/vtv";
+var thirdUrlPrefix = "https://www.blsspainmorocco.net/MAR/bls/vt";
 
 
 
@@ -35,8 +35,8 @@ if (window.location.href.startsWith(vtvUrlPrefix)) {
   (async function() {
     'use strict';
 
-    var vtvUrlPrefix = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType";
-    var thirdUrlPrefix = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType";
+    var vtvUrlPrefix = "https://morocco.blsportugal.com/MAR/bls/vtv";
+    var thirdUrlPrefix = "https://morocco.blsportugal.com/MAR/bls/vt";
 
     if (window.location.href.startsWith(vtvUrlPrefix)) {
         const btnVerify = document.querySelector("#btnVerify");
@@ -208,7 +208,7 @@ const RabatPremiumButton = createButton("Rabat Premium", function() {
   (async function() {
     'use strict';
 
-    var vtvUrlPrefix = "https://www.blsspainmorocco.net/MAR/Appointment/VisaType;
+    var vtvUrlPrefix = "https://morocco.blsportugal.com/MAR/bls/vtv";
     var thirdUrlPrefix = "https://morocco.blsportugal.com/MAR/bls/vt";
 
     if (window.location.href.startsWith(vtvUrlPrefix)) {
